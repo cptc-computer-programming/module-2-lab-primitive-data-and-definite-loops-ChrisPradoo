@@ -1,21 +1,29 @@
 package day2.part03_pattern_section;
 
 public class PatternSection {
-
+    // this is a constant like in python just more complicated to create lol
     public static final int SIZE = 3;
 
     public static void main(String[] args) {
         // TODO: Call each method below in this order:
-        // printEdge();
+        printEdge();
         // printDiamondTop();
         // printDiamondBottom();
-        // printEdge();
+        printEdge();
     }
 
     // TODO: Print the edge line that fits the width for SIZE.
     // Format: + followed by repeating "=*" and ending with +
     // Example for SIZE=2: +=*=*=*=*+
     public static void printEdge() {
+        // print a +
+        System.out.print("+");
+
+        // write a loop to print =* a variable number of time
+        for (int i = 0; i < SIZE * 2; i++) {
+            System.out.print("=*");
+        }
+        System.out.println();
 
     }
 
