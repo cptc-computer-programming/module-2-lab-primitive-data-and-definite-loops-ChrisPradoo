@@ -12,7 +12,7 @@ public class ReceiptTotals {
     // Each item costs $5.
     // Every 3rd item starting at 100 is on sale for $3 instead.
     //
-    // TODO:
+
     // - Calculate and print the total cost.
     // - Do NOT hard-code the total.
     public static void printReceiptSummary() {
@@ -37,7 +37,9 @@ public class ReceiptTotals {
     // TODO:
     // Print a countdown from 5 down to 0 on one line.
     public static void printClosingCountdown() {
-    
+        for (int i = 5; i >= 0; i--) {
+            System.out.print(i + " ");
+        }  
+
     }
-    
 }
