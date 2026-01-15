@@ -16,6 +16,21 @@ public class ReceiptTotals {
     // - Calculate and print the total cost.
     // - Do NOT hard-code the total.
     public static void printReceiptSummary() {
+        int totalCost = 0;
+
+        // loop through all items from 100 to 105
+        for(int item = 100; item <= 105; item++) {
+            // % will give remainder after interger division
+            if ((item - 100) % 3 == 0)
+                totalCost += 3;
+            else {
+              // take a running total
+            // where every item is $5
+            totalCost += 5;  
+            }
+
+        }
+        System.out.println("Total Cost $" + totalCost);
 
     }
 
