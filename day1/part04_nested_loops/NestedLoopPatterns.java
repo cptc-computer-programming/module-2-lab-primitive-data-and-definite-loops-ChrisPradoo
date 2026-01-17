@@ -8,6 +8,19 @@ public class NestedLoopPatterns {
         // *****
         // *****
         // *****
+        // row example    *
+        //                *
+
+        // column example ***
+        //                ***
+        int rows = 3;
+        int colum = 5;
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= colum; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
         // TODO B: right triangle, 5 rows
         // *
@@ -15,6 +28,7 @@ public class NestedLoopPatterns {
         // ***
         // ****
         // *****
+        
         
         // TODO C: inverted right triangle, 5 rows
         // *****

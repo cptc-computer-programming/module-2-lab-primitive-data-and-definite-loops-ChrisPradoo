@@ -13,6 +13,19 @@ public class SensorReadings {
         // At each minute, compute a value equal to (minute / 5) * 2,
         // then print the minute and the computed value.
 
+        // example of pseudocode: loop over minutes 0 to 60, updating by 5 each time
+        // how the loop works, starts at 0, stops when it is equal to 60, adds 5 to minute variable every loop
+            for (int minute = 0; minute <= 60; minute += 5) {
+                System.out.print("Minute: " + minute);
+                // computing the random equation, teacher used double i used int, double would be better.
+                double randomCalculation = (minute / 5) * 2;
+                System.out.println();
+                System.out.println("Random calculation:" + randomCalculation);
+
+            }
+
+
+
     }
     
 }
